@@ -2,11 +2,11 @@
 This package provides a pair of Vuetify components for countries/region selects. 
 
 ```
-npm i vuetify-country-region-select
+npm i @saiful676/vuetify-country-region-select
 
 #or
 
-yarn add vuetify-country-region-select
+yarn add @saiful676/vuetify-country-region-select
 ```
 
 # Usage
@@ -17,7 +17,7 @@ yarn add vuetify-country-region-select
 import Vue from "vue";
 import App from "./App.vue";
 import vuetify from "@/vuetify";
-import vuetifyCountryRegionSelect from "vuetify-country-region-select"
+import vuetifyCountryRegionSelect from "@saiful676/vuetify-country-region-select"
 
 Vue.use(vuetifyCountryRegionSelect)
 Vue.config.productionTip = false;

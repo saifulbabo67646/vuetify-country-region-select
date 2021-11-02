@@ -1,6 +1,6 @@
 {
-  "name": "vuetify-country-region-select",
-  "version": "0.1.7",
+  "name": "@saiful676/vuetify-country-region-select",
+  "version": "1.0.0",
   "private": false,
   "description": "## Project setup ``` yarn install ```",
   "repository": {

@@ -1,5 +1,5 @@
 <template>
-    <v-select
+    <v-autocomplete
       :items="regionList"
       item-value="name"
       item-text="name"
@@ -11,18 +11,18 @@
       :label="label"
       return-object
       @input="selectRegion()"
-    ></v-select>
+    ></v-autocomplete>
 </template>
 
 <script>
-import { VSelect } from "vuetify/lib";
+import { VAutocomplete } from "vuetify/lib";
 import states from "@/data.js";
 import { EventBus } from "../main";
 
 export default {
   name: "VuetifyRegionSelect",
   components: {
-    VSelect,
+    VAutocomplete,
   },
   props: {
     countryValue: {
